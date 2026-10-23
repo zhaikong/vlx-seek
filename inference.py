@@ -5,6 +5,10 @@ Examples:
     python inference.py --task brief_region_caption --target-region-indexes "[2, 3]"
     python inference.py --task vqa --text "What is happening in this image?"
 """
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import importlib
 import json
